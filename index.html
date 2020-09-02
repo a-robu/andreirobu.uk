@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Andrei D. Robu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicons generated with https://favicon.io/favicon-generator/. -->
     <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
@@ -17,21 +18,19 @@
         body {
             display: flex;
             justify-content: center;
+            margin: 0;
         }
 
         article {
             max-width: 800px;
             background-color: #f4f4f4;
             padding: 55px;
-            margin-top: 40px;
+            margin: 40px;
         }
 
         h1 {
             font-family: 'EB Garamond', serif;
             font-weight: normal;
-        }
-
-        h1 {
             font-size: 80px;
             text-align: center;
         }
@@ -50,6 +49,21 @@
             font-family: 'Crimson Pro', serif;
             font-weight: 300;
             font-size: 24px;
+        }
+
+        @media (max-width: 600px) {
+            article {
+                margin-left: 0;
+                margin-right: 0;
+            }
+
+            h1 {
+                font-size: 60px;
+            }
+
+            p {
+                font-size: 20px;
+            }
         }
     </style>
 </head>
