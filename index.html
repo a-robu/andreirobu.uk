@@ -26,7 +26,7 @@
             margin-top: 40px;
         }
 
-        h1, h2 {
+        h1 {
             font-family: 'EB Garamond', serif;
             font-weight: normal;
         }
@@ -34,6 +34,16 @@
         h1 {
             font-size: 80px;
             text-align: center;
+        }
+        
+        h1.collapsed {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .fleuron {
+            text-align: center;
+            font-size: 45px;
         }
 
         p {
@@ -45,13 +55,15 @@
 </head>
 <body>
     <article>
-        <h1>Andrei D. Robu</h1>
-
+        <h1 class="collapsed">Andrei D. Robu</h1>
+        <div class="fleuron">❧</div>
         <p>
             I'm a software developer with CS research experience
             at the <a href="https://adapsys.cs.herts.ac.uk/">Adaptive Systems Research Group</a>
             of UH.
         </p>
+
+        <!-- https://doi.org/10.1162/artl_a_00303 -->
     </article>
 </body>
 </html>
