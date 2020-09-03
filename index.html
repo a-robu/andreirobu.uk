@@ -57,6 +57,33 @@
             font-size: 45px;
         }
 
+        aside {
+            float: right;
+            width: 25%;
+            margin: 20px;
+            margin-right: 0;
+        }
+
+        aside img.portrait {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        ul.social-media {
+            margin-top: 12px;
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul.social-media li {
+            text-align: center;
+        }
+
+        .github-icon {
+            height: 1em;
+            vertical-align: bottom;
+        }
+
         p {
             font-size: 24px;
         }
@@ -82,11 +109,17 @@
             }
 
             h1 {
-                font-size: 60px;
+                font-size: 46px;
             }
 
             p {
                 font-size: 20px;
+            }
+
+            aside {
+                float: initial;
+                width: 100%;
+                margin-left: 0;
             }
         }
     </style>
@@ -95,6 +128,17 @@
     <article>
         <h1 class="collapsed">Andrei D. Robu</h1>
         <div class="fleuron">❧</div>
+        <aside>
+            <img class="portrait" src="andrei-medium.jpg">
+            <ul class="social-media">
+                <li>
+                    <a href="https://github.com/a-robu/">
+                        github.com
+                        <img class="github-icon" src="https://raw.githubusercontent.com/encharm/Font-Awesome-SVG-PNG/master/black/svg/github.svg" />
+                    </a>
+                </li>
+            </ul>
+        </aside>
         <p>
             I'm currently working as a software developer.
             I have also been a PhD student and Senior Research
